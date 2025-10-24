@@ -1,0 +1,8 @@
+import streamlit as st
+
+def display():
+    st.subheader("Context and Objectives:")
+    st.write("In recent years, educational institutions across France have faced closures due to various reasons. These closures have significantly impacted students, teachers, and local communities. Understanding the patterns and trends behind these closures is crucial for policymakers and stakeholders to address underlying issues and make informed decisions. This analysis examines the closures of educational establishments across different regions and time periods, utilizing data about the types of institutions, the reasons for their closures, and the geographic distribution. sing data from 1970 to 2025, we aim to identify trends, regional disparities, and the types of institutions most affected. The visualizations included in this report will give a comprehensive view of when, where, and why these closures have occurred, providing valuable insights into the evolution of France education system.")
+    st.subheader("What are the key factors driving the closures of educational institutions in France between 1970 and 2025, and how do these closures vary by region, institution type, and educational level?")
+    st.subheader("Data Sources:")
+    st.write("The data used for this analysis comes from a dataset containing information about the closures of educational institutions. This includes key details such as the dates of opening and closing, the type of institution (public or private), and the geographic regions affected by these closures. The dataset was loaded and processed using Python, pandas, and Streamlit.") 
